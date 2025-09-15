@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -35,8 +34,9 @@ import {
 } from '../assets'
 
 
-// Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+// Import a placeholder for company logos
+import papertechy from "../assets/company/papertechy.png";
+import placeholder from "../assets/company/placeholder.png";
 
 
 export const navLinks = [
@@ -59,31 +59,31 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
-    icon: web,
+    title: "Software Development Engineer",
+    icon: web, // You can choose an appropriate icon
   },
   {
-    title: "Frontend Developer",
-    icon: mobile,
+    title: "Full-Stack Web Developer",
+    icon: mobile, // You can choose an appropriate icon
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "API Development",
+    icon: backend, // You can choose an appropriate icon
   },
   {
-    title: "Ui UX Designer",
-    icon: creator,
+    title: "Performance Optimization",
+    icon: creator, // You can choose an appropriate icon
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: placeholder, // You will need to add an image for Python
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "C++",
+    icon: placeholder, // You will need to add an image for C++
   },
   {
     name: "JavaScript",
@@ -94,178 +94,167 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "gsap",
-    icon: gsap,
+    name: "NextJS",
+    icon: placeholder, // You will need to add an image for NextJS
   },
   {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "HTML 5",
+    icon: html,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "CSS 3",
+    icon: css,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Material Ui",
-    icon: mui,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "Express Js",
+    name: "Express JS",
     icon: express,
   },
   {
-    name: "AWS",
-    icon: aws,
+    name: "Flask",
+    icon: placeholder, // You will need to add an image for Flask
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "MySql",
+    name: "PostgreSQL",
+    icon: placeholder, // You will need to add an image for PostgreSQL
+  },
+  {
+    name: "MySQL",
     icon: mysql,
   },
-
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
- 
+  {
+    name: "Linux",
+    icon: placeholder, // You will need to add an image for Linux
+  },
+  {
+    name: "Postman",
+    icon: placeholder, // You will need to add an image for Postman
+  },
+  {
+    name: "VS Code",
+    icon: placeholder, // You will need to add an image for VS Code
+  },
+  {
+    name: "Vercel",
+    icon: placeholder, // You will need to add an image for Vercel
+  },
+  {
+    name: "Netlify",
+    icon: placeholder, // You will need to add an image for Netlify
+  },
+  {
+    name: "NumPy",
+    icon: placeholder, // You will need to add an image for NumPy
+  },
+  {
+    name: "pandas",
+    icon: placeholder, // You will need to add an image for pandas
+  },
+  {
+    name: "scikit-learn",
+    icon: placeholder, // You will need to add an image for scikit-learn
+  },
+  {
+    name: "TensorFlow",
+    icon: placeholder, // You will need to add an image for TensorFlow
+  },
 
 ];
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "Web Developer (Hybrid)",
+    company_name: "PAPERTECHY PVT. LTD.",
+    icon: papertechy, // You will need to provide this image
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "September 2025 - Present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building and optimizing a full-stack e-commerce platform, enabling secure workflows and seamless customer experience for handmade products.",
+      "Improving platform performance and engagement by integrating new features, boosting speed, and enhancing navigation.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
-    image: firstTestimonial,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
-    image: secondTestimonial,
-  },
-  {
-    testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: thirdTestimonial,
-  },
-];
+// Removing testimonials as requested
+const testimonials = [];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Campus Cove",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Designed and developed a centralized campus portal that streamlined student resource access, resulting in 40% faster information retrieval across academics, placements, and clubs.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "react",
         color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
-    ],
-    image: project2,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GearXpert",
-    description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
       },
       {
         name: "express",
-        color: "white-text-gradient",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project2, // Placeholder image
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Quick AI",
+    description:
+      "Developed a full-stack AI-powered content generation system with role management and secure authentication. Built scalable backend APIs, optimized queries for high throughput, and deployed a responsive UI to support 500+ active users.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: "node",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "white-text-gradient",
+      },
+    ],
+    image: gearXpert, // Placeholder image
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Weather API",
+    description:
+      "Implemented a real-time weather forecasting application integrating external APIs with HTTPS & TLS for security. Enhanced reliability by engineering fault-tolerant API calls and optimized data pipelines.",
+    tags: [
+      {
+        name: "open-weather-map-api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "green-text-gradient",
       },
     ],
-    image: project3,
+    image: project3, // Placeholder image
     source_code_link: "https://github.com/",
   },
 ];
